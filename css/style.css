@@ -126,9 +126,17 @@
   left: 20px;
 }
 
+.promo {
+  background-image: url("../image/background/background.png");
+  background-repeat: no-repeat;
+  background-position: 50% 59%;
+}
+
 .promo__image {
   width: 100%;
   margin-bottom: 12px;
+  position: relative;
+  z-index: -1;
 }
 
 .promo__text {
